@@ -18,6 +18,10 @@ public class BeerSong {
 	if (beerNumber == 1){
            word = "bottle"; //when the number equals 1
            }
+
+	if(beerNumber > 0) {
+            System.out.println("Take one down, pass it round " + beerNumber + " " + word + " of beer");
+            }
     }
     }
 }
