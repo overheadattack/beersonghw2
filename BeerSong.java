@@ -13,6 +13,11 @@ public class BeerSong {
 
 	    System.out.println(beerNumber + " " + word + " of beer on the wall, " + beerNumber + " " + word + " of beer");
             beerNumber = beerNumber - 1;
+
+
+	if (beerNumber == 1){
+           word = "bottle"; //when the number equals 1
+           }
     }
     }
 }
